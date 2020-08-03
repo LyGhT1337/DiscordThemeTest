@@ -1,2 +1,4 @@
 # Discord-Darkness
-A theme baseline by LyGhT
+
+
+A WiP Discord Theme.
