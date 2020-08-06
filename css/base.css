@@ -2362,3 +2362,9 @@ svg[name=Discord] {
 .modeUnread-1zpFdA .name-3_Dsmg { 
     color: var(--ccolor)
 }
+
+
+/* Remove send a gift */
+[aria-label="Send a gift"] {
+    display: none;
+}
