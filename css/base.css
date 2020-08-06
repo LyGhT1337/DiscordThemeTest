@@ -1779,7 +1779,6 @@ padding-right: 0px;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: var(--HomeButtonImg)!important
 }
 
 svg[name=Discord] {
@@ -1954,7 +1953,6 @@ svg[name=Discord] {
 	background-color: rgba(0,0,0,.15)!important
 }
 .wrapper-1BJsBx[aria-label=Home] {
-	background-image: var(--HomeButtonImg)!important;
 	background-position: 66% 66%;
 	background-size: 60% 80%;
 	background-repeat: no-repeat;
