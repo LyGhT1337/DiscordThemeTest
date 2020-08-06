@@ -150,23 +150,7 @@
  background-size: cover;}
 .platform-win .sidebar-2K8pFh {border-radius: 0px;}
 
-.guildInner-3DSoA4 a svg {
-	background-image: var(--HomeButtonImg);
-	background-position: center!important;
-	background-repeat: no-repeat!important;
-	background-size: contain!important
-}
 
-.wrapper-2lTRaf a.homeLink-2NBBKi {
-	top: -1px;
-	left: -4px;
-	position: relative;
-	height: 35px!important;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: var(--HomeButtonImg)!important
-}
 
 /* Unread Channel color */
 .modeUnread-1zpFdA .name-3_Dsmg { 
@@ -414,4 +398,56 @@
 
 .body-3ND3kc {
 	background-color: var(--medium)!important
+}
+
+.homeButton-2Cw51C {
+	position: relative;
+	top: -5px;
+	left: 13px;
+	overflow: visible;
+	z-index: 2
+}
+
+.homeButton-2Cw51C::after {
+	content: "";
+	top: -5px;
+	background-color: var(--dark);
+	width: 500%;
+	height: 40px;
+	position: absolute;
+	z-index: -1;
+	pointer-events: none;
+	box-shadow: 1px 0 10px #000
+}
+
+.guildInner-3DSoA4 a svg {
+	background-image: var(--HomeButtonImg);
+	background-position: center!important;
+	background-repeat: no-repeat!important;
+	background-size: contain!important
+}
+
+.wrapper-2lTRaf a.homeLink-2NBBKi {
+	top: -1px;
+	left: -4px;
+	position: relative;
+	height: 35px!important;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: var(--HomeButtonImg)!important
+}
+
+.wrapper-1BJsBx[aria-label=Home] {
+	background-image: var(--HomeButtonImg)!important;
+	background-position: 66% 66%;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	background-color: transparent!important
+}
+.wrapper-1BJsBx[aria-label=Home]>* {
+	display: none
+}
+.clickable-1JJAn8.container-2Pjhx-:hover {
+	background-color: transparent!important
 }
