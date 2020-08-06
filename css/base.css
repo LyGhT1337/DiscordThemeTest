@@ -263,8 +263,8 @@
 }
 
 .channelTextArea-rNsIhG {
-	margin: 6;
-	padding: 7px;
+	margin: 0;
+	padding: 5px;
 	box-sizing: border-box;
 	border: none!important
 }
@@ -272,7 +272,7 @@
 	margin: 0;
 	background-color: var(--medium)!important;
   box-sizing: border-box;
-  padding-right: 0px;
+  padding-right: 5px;
   padding-left: 0px;
 }
 .channelTextArea-rNsIhG{
@@ -2377,7 +2377,7 @@ svg[name=Discord] {
 .scrollableContainer-2NUZem {
   background-color: var(--medium)!important;
   border: 1px solid var(--primary)!important;
-  border-radius: 0px!important;}
+  border-radius: 1px!important;}
 .channelTextArea-rNsIhG {
   background-color:transparent;}
 .form-2fGMdU:before{
