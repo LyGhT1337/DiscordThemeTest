@@ -1987,16 +1987,6 @@ svg[name=Discord] {
 .attachButtonInner-1iyZ9F svg path,.guildInner-3DSoA4 a svg g,.messageGroupBlocked-3wrQQX,.welcomeMessage-3_Mcht {
 	display: none
 }
-/*Message box */ 
-.scrollableContainer-2NUZem {
-  background-color: var(--light);
-  border: 1px solid var(--dark);
-  border-radius: 1px;}
-.channelTextArea-rNsIhG {
-  background-color:transparent;}
-.form-2fGMdU:before{
-  display:none;
-}
 /*Reactions*/
 .wrapper-2aW0bm:hover {
   background-color: var(--medium) !important;
@@ -2363,4 +2353,33 @@ svg[name=Discord] {
 /* Remove send a gift */
 [aria-label="Send a gift"] {
     display: none;
+}
+
+[class^=guilds] > [class^=guild]:first-child > [class^=guildInner] {
+	background-color: transparent !important;
+	overflow: visible;
+}
+
+[class^=guilds] > [class^=guild]:first-child > [class^=guildInner] svg {
+	transition: all 0.3s;
+}
+
+[class^=guilds] > [class^=guild][class*=selected]:first-child > [class^=guildInner] svg {
+	color: #7289da;
+	filter: drop-shadow(0 0 10px #7289da);
+}
+
+[class^=guilds] > [class^=guild]:not([class*=selected]):first-child:hover > [class^=guildInner] svg {
+	filter: drop-shadow(0 0 10px white);
+	color: white;
+}
+/*Message box */ 
+.scrollableContainer-2NUZem {
+  background-color: var(--medium)!important;
+  border: 1px solid var(--primary)!important;
+  border-radius: 0px!important;}
+.channelTextArea-rNsIhG {
+  background-color:transparent;}
+.form-2fGMdU:before{
+  display:none;
 }
