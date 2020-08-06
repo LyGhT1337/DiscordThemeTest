@@ -6,7 +6,6 @@
   --medium:#111214;
   --light:#1e1f21;
   --ccolor:#d94804;	
-  --HomeButtonImg:url('https://i.imgur.com/Gwt8VeD.png');
 }
 
 /* CORE CSS */
@@ -851,7 +850,6 @@ padding-right: 0px;
 }
 
 .guildInner-3DSoA4 a svg {
-	background-image: var(--HomeButtonImg);
 	background-position: center!important;
 	background-repeat: no-repeat!important;
 	background-size: contain!important
