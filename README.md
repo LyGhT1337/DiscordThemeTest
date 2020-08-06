@@ -1,4 +1,4 @@
-# Discord-Darkness
 
 
-A WiP Discord Theme.
+
+A WiP Discord Theme testing ground.
